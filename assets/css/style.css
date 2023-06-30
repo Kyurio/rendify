@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+body {
+
+
+}
+
+h1,h2,h3,h4,h5,h6, p {
+	
+	font-family: 'Roboto', sans-serif !important;
+	color: #777;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+
+}
+
+.step {
+	width: 2rem;
+	height: 2rem;
+}
+
+.progress {
+
+	height: 5px;
+
+}
+
+.offcanvas {
+
+	width: 100% !important;
+	height: 100% !important;
+}
+#preloader {
+	background-color: #f8f9fa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+
+  .preloader-content {
+	text-align: center;
+  }
+
+  .preloader-progress {
+	width: 200px;
+	height: 10px;
+	background-color: #ddd;
+	margin-bottom: 10px;
+  }
+
+  .preloader-percent {
+	font-size: 18px;
+  }
+
+  #content {
+	display: none;
+  }
